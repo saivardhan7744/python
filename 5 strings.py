@@ -142,10 +142,10 @@ print(newstr)
 # Task: Read a sentence and print the largest alphabetical word.
 
 
-sent=input("Enter the sentence: ")
+str=input("Enter the sentence: ")
 word= ""
 large=""
-for ch in sent:
+for ch in str:
     if ch!=' ':
         word+=ch
     else:
@@ -163,10 +163,10 @@ print(large)
 # Task: Read a sentence and count how many words are palindromes.
 
 
-sent=input("Enter the sentence:")
+str=input("Enter the sentence:")
 word=""
 count=0
-for ch in sent+" ":
+for ch in str+" ":
     if ch!=' ':
         word+=ch
     else:
